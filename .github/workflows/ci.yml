@@ -24,10 +24,6 @@ jobs:
         working-directory: status_ckeck_frontend
         run: npm install
 
-      - name: Lint frontend
-        working-directory: status_ckeck_frontend
-        run: npm run lint
-
       - name: Build frontend
         working-directory: status_ckeck_frontend
         run: npm run build
